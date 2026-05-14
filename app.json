@@ -5,20 +5,22 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.kreekinc.creekapp"
     },
     "android": {
-      "package": "com.kreekinc.creekapp"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "e62d4109-107a-448a-a31a-87cf63bafab0"
+      "package": "com.kreekinc.creekapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
       }
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
     }
   }
 }
